@@ -11,6 +11,7 @@
         <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet"/>
         <!-- Custom styles for this template -->
         <link href="style.css" rel="stylesheet"/>
+        <script src="https://challenges.cloudflare.com/turnstile/v0/api.js" async defer></script>
     </head>
     <body>
         <nav class="bg-warning navbar navbar-expand-lg navbar-light pb-3 pb-lg-1 pt-3 pt-lg-4"> 
@@ -20,7 +21,7 @@
                 <div class="collapse navbar-collapse w-100" id="navbarNavDropdown-6"> 
                     <ul class="me-auto ms-auto navbar-nav"> 
                         <li class="nav-item"> <a class="active nav-link px-lg-3 py-lg-4" aria-current="page" href="#">Home</a> 
-                        </li>                                                                                                                             
+                        </li>                         
                     </ul>                     
                 </div>                 
             </div>             
@@ -468,7 +469,8 @@
                                 </div>                                 
                                 <div class="mb-3"> 
                                     <textarea class="form-control rounded-0" rows="6" placeholder="Enter your message..."></textarea> 
-                                </div>                                 
+                                </div>
+                                <div class="cf-turnstile" data-sitekey="0x4AAAAAAAAoKRPKwScEsdQq"></div>                                 
                                 <button type="submit" class="btn d-block w-100 btn-primary rounded-0 text-uppercase">Submit</button>                                 
                             </form>                             
                         </div>                         
